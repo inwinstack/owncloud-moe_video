@@ -1,0 +1,64 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+.nav-icon-video {
+  background-image: url('../img/play-icon.png');
+}
+.top {
+    position: fixed;
+    right: 10px;
+}
+.number{
+    font-size: 40px;
+    font-weight:bold;
+}
+
+.title{
+  padding: 0 10px;
+  font-size: 28px;
+}
+.section {
+ padding: 0 10px;
+ display: block;
+}
+hr { 
+  border: 0;
+  border-top: 1px dashed #8c8c8c;
+  height: 5px;
+
+} 
+hr:after { 
+  content: ''; 
+  display: inline-block; 
+  position: relative; 
+  top: -14px; 
+  padding: 0 3px; 
+  background: #66DD00; 
+  color: black; 
+  font-size: 16px;
+  width: 40px;
+  height: 8px
+}
+#videocontent{
+    padding: 10px 10px;
+}
+ul.videoul {
+  display:inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+li.videoli{
+  display:inline-block;
+  list-style: none;
+  padding: 5px 0 0px 30px;
+  background-image: url("../img/play.png");
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position: 0px 7px;
+}
+
+a.videoa{
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 5px;
+}
+

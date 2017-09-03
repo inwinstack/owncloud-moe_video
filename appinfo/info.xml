@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<info>
+    <id>moe_video</id>
+    <name>MOE Cloud Storage Learning Video</name>
+    <description>Demo MOE Cloud Storage Learning Video.</description>
+    <licence>AGPL</licence>
+    <author>Duncan Chiang</author>
+    <version>0.0.1</version>
+    <namespace>Moe_Video</namespace>
+    <category>other</category>
+    <types>
+      <prelogin/>
+    </types>
+    <dependencies>
+        <owncloud min-version="8" />
+    </dependencies>
+</info>
