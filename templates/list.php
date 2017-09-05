@@ -15,7 +15,7 @@ $chapterList = $_['chapterList'];
         <hr></hr>
         <ul class='videoul'>
           <?php foreach($chapterList['One']['Chapters'] as $index => $chapter): ?>
-              <li class='videoli'><a class="videoa" target="_blank" href=<?php p($chapter['url'])?>><?php p($index)?></a></li><p></p>
+              <li class='videoli'><a target="c1" class="videoa" target="_blank" href=<?php p($chapter['url'])?>><?php p($index)?></a></li><p></p>
           <?php endforeach; ?>
         </ul>
       </div>
@@ -25,7 +25,7 @@ $chapterList = $_['chapterList'];
         <hr></hr>
         <ul class='videoul'>
           <?php foreach($chapterList['Two']['Chapters'] as $index => $chapter): ?>
-              <li class='videoli'><a class="videoa" target="_blank" href=<?php p($chapter['url'])?>><?php p($index)?></a></li><p></p>
+              <li class='videoli'><a target="c2" class="videoa" target="_blank" href=<?php p($chapter['url'])?>><?php p($index)?></a></li><p></p>
           <?php endforeach; ?>
         </ul>
       </div>
@@ -35,7 +35,7 @@ $chapterList = $_['chapterList'];
         <hr></hr>
         <ul class='videoul'>
             <?php foreach($chapterList['Three']['Chapters'] as $index => $chapter): ?>
-              <li class='videoli'><a class="videoa" target="_blank" href=<?php p($chapter['url'])?>><?php p($index)?></a></li><p></p>
+              <li class='videoli'><a target="c3" class="videoa" target="_blank" href=<?php p($chapter['url'])?>><?php p($index)?></a></li><p></p>
           <?php endforeach; ?>
         </ul>
       </div>
@@ -45,7 +45,7 @@ $chapterList = $_['chapterList'];
         <hr></hr>
       <ul class='videoul'>
           <?php foreach($chapterList['Four']['Chapters'] as $index => $chapter): ?>
-              <li class='videoli'><a class="videoa" target="_blank" href=<?php p($chapter['url'])?>><?php p($index)?></a></li><p></p>
+              <li class='videoli'><a target="c4" class="videoa" target="_blank" href=<?php p($chapter['url'])?>><?php p($index)?></a></li><p></p>
           <?php endforeach; ?>
       </ul>
       </div>
@@ -55,7 +55,7 @@ $chapterList = $_['chapterList'];
         <hr></hr>
       <ul class='videoul'>
           <?php foreach($chapterList['Five']['Chapters'] as $index => $chapter): ?>
-              <li class='videoli'><a class="videoa" target="_blank" href=<?php p($chapter['url'])?>><?php p($index)?></a></li><p></p>
+              <li class='videoli'><a target="c5" class="videoa" target="_blank" href=<?php p($chapter['url'])?>><?php p($index)?></a></li><p></p>
           <?php endforeach; ?>
       </ul>
       </div>
