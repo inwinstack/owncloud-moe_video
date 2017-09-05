@@ -9,11 +9,13 @@
 .number{
     font-size: 40px;
     font-weight:bold;
+    cursor: default;
 }
 
 .title{
   padding: 0 10px;
   font-size: 28px;
+  cursor: default;
 }
 .section {
  padding: 0 10px;

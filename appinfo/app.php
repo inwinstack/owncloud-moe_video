@@ -25,5 +25,5 @@ $l = \OC::$server->getL10N('moe_video');
 	"appname" => 'moe_video',
 	"script" => 'list.php',
 	"order" => 40,
-	"name" => $l->t('Learning Video')
+	"name" => $l->t('Learning map')
 ]);

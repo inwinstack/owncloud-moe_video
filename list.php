@@ -20,9 +20,11 @@
  */
 // Check if we are a user
 OCP\User::checkLoggedIn();
-
+set_include_path(get_include_path().PATH_SEPARATOR.
+	\OC_App::getAppPath('moe_video'));
+require_once 'chapterlist.php';
 OCP\Util::addStyle('moe_video', 'style');
-OCP\Util::addScript('moe_video', 'script');
+//OCP\Util::addScript('moe_video', 'script');
 $tmpl = new OCP\Template('moe_video', 'list', '');
-
+$tmpl->assign('chapterList', $chapterList);
 $tmpl->printPage();
