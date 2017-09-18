@@ -9,7 +9,7 @@ $chapterList = array(
               ),
 
 'Two' => array(
-'Title' => '網頁界面',
+'Title' => '網頁介面',
 'Chapters' => array(
     '2.1 網頁介面-登入方式' => array('url' => 'http://u.camdemy.com/media/16340'),
     '2.2 網頁介面-上傳檔案' => array('url' => 'http://u.camdemy.com/media/16341'),
