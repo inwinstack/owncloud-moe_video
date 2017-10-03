@@ -24,7 +24,6 @@ $chapterList = array(
     '2.11 網頁介面-檢視所有活動' => array('url' => 'http://u.camdemy.com/media/16336'),
     '2.12 網頁介面-檔案版本控制' => array('url' => 'http://u.camdemy.com/media/16337'),
     '2.13 網頁介面-外部雲端空間設定' => array('url' => 'http://u.camdemy.com/media/16343'),
-    '2.14 網頁介面-與學生分享資料夾之使用情境' => array('url' => 'http://u.camdemy.com/media/16344')
                  ),
               ),
 'Three' => array(
@@ -37,7 +36,6 @@ $chapterList = array(
     '3.5 行動裝置 Android App-分享檔案或資料夾' => array('url' => 'http://u.camdemy.com/media/16349'),
     '3.6 行動裝置 Android App-刪除檔案或資料夾' => array('url' => 'http://u.camdemy.com/media/16350'),
     '3.7 行動裝置 Android App-移動檔案或資料夾' => array('url' => 'http://u.camdemy.com/media/16351'),
-    '3.8 行動裝置 Android App-自動備份手機中的照片與影片' => array('url' => 'http://u.camdemy.com/media/16352'),
                  ),
           ),
 
@@ -51,7 +49,6 @@ $chapterList = array(
     '4.5 行動裝置 iOS App-分享檔案或資料夾' => array('url' => 'http://u.camdemy.com/media/16357'),
     '4.6 行動裝置 iOS App-移動檔案或資料夾' => array('url' => 'http://u.camdemy.com/media/16358'),
     '4.7 行動裝置 iOS App-刪除檔案或資料夾' => array('url' => 'http://u.camdemy.com/media/16359'),
-    '4.8 行動裝置 iOS App-自動備份手機中的照片' => array('url' => 'http://u.camdemy.com/media/16360'),
                 ),
          ),
 
@@ -66,6 +63,14 @@ $chapterList = array(
                 ),
         ),
 
+'Six' => array(
+'Title' => '情境使用範例',
+'Chapters' => array(
+    '6.1 網頁介面-與學生分享資料夾之使用情境' => array('url' => 'http://u.camdemy.com/media/16344'),
+    '6.2 行動裝置 Android App-自動備份手機中的照片與影片' => array('url' => 'http://u.camdemy.com/media/16352'),
+    '6.3 行動裝置 iOS App-自動備份手機中的照片' => array('url' => 'http://u.camdemy.com/media/16360'),
+                ),
+        ),
 );
 
 ?>

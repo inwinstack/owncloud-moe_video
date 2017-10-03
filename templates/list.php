@@ -60,4 +60,14 @@ $chapterList = $_['chapterList'];
       </ul>
       </div>
 
+      <div id="case" class="section">
+        <a class= "number">6.</a><a class = "title"><?php p($chapterList['Six']['Title'])?></a>
+        <hr></hr>
+      <ul class='videoul'>
+          <?php foreach($chapterList['Six']['Chapters'] as $index => $chapter): ?>
+              <li class='videoli'><a target="c5" class="videoa" target="_blank" href=<?php p($chapter['url'])?>><?php p($index)?></a></li><p></p>
+          <?php endforeach; ?>
+      </ul>
+      </div>
+
     </div>
